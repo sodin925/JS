@@ -14,8 +14,8 @@ buttons.forEach(function(button){
 
         htmlBody = document.getElementsByTagName("body");
         text = document.createElement("br")
-        htmlBody[0].append(text);
-        htmlBody[0].append(lastButton.innerText);
+        // htmlBody[0].append(text);
+        // htmlBody[0].append(lastButton.innerText);
     }
     // Append it to body
     htmlBody = document.getElementsByTagName("body");
